@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/peerstreaminc/raft"
+	"github.com/proximax-storage/raft"
 )
 
 func testBoltStore(t testing.TB) *BoltStore {
